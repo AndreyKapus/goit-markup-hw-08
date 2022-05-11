@@ -1,52 +1,89 @@
-
-  
-  .benefits__list {
-    display: flex;
-    justify-content: center;
-  
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  
-  .benefits__item {
-    width: 270px;
-
-    &:not(:last-child) {
-        margin-right: 30px;}
-  }
-  
-
-  .benefits__subtitle {
-    color: $title-text-color;
-    
-    margin-top: 0px;
-    margin-bottom: 10px;
-
-    font-size: 14px;
-    line-height: 1.7;
-
-    text-transform: uppercase;
-  }
-
-  .benefits__text {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  
-    line-height: 1.71;
-  }
-
   .benefits__icon {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 270px;
-    height: 120px;
     background-color: $secondary-background-color;
-  
+    height: 120px;
+
     margin-bottom: 30px;
   
     border-radius: 4px;
   }
+
+.benefits__list {
+  padding-left: 0px;
+}
+
+.benefits__subtitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14x;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-text-color;
+}
+
+  .benefits__text {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+
+  // .benefits__list {
+  //   display: flex;
+  //   justify-content: center;
+  
+  //   margin-top: 0px;
+  //   margin-bottom: 0px;
+  //   padding-left: 0px;
+  //   padding-right: 0px;
+  // }
+  
+  // .benefits__item {
+  //   width: 270px;
+
+  //   &:not(:last-child) {
+  //       margin-right: 30px;}
+  // }
+  
+
+  // .benefits__subtitle {
+  //   color: $title-text-color;
+    
+  //   margin-top: 0px;
+  //   margin-bottom: 10px;
+
+  //   font-size: 14px;
+  //   line-height: 1.7;
+
+  //   text-transform: uppercase;
+  // }
+
+  // .benefits__text {
+  //   margin-top: 0px;
+  //   margin-bottom: 0px;
+  
+  //   line-height: 1.71;
+  // }
+
+  // .benefits__icon {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  //   width: 270px;
+  //   height: 120px;
+  //   background-color: $secondary-background-color;
+  
+  //   margin-bottom: 30px;
+  
+  //   border-radius: 4px;
+  // }

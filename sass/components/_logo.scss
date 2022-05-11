@@ -1,18 +1,18 @@
 
-.header__logo {
-    color: $title-text-color;
-    font-family: raleway;
+// .header__logo {
+//     color: $title-text-color;
+//     font-family: raleway;
     
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 1.19;
+//     text-decoration: none;
     
-    padding-top: 24px;
-    padding-bottom: 24px;
-    }
+//     padding-top: 24px;
+//     padding-bottom: 24px;
+//     }
     
-    .header__logo-item {
-        @extend .header__logo;
-      color: $accent-color;
-    }
+//     .header__logo-item {
+//         @extend .header__logo;
+//       color: $accent-color;
+//     }

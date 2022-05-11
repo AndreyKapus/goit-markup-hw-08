@@ -1,149 +1,149 @@
-.hero__button {
-    color: $hero-title-color;
-    background-color: $accent-color;
+// .hero__button {
+//     color: $hero-title-color;
+//     background-color: $accent-color;
     
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    border-radius: 4px;
-    border: none;
+//     font-family: Roboto;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.87;
+//     letter-spacing: 0.06em;
+//     border-radius: 4px;
+//     border: none;
   
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+//     padding-left: 32px;
+//     padding-right: 32px;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
   
-    cursor: pointer;
-  }
+//     cursor: pointer;
+//   }
 
-  .footer__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0 0;
+//   .footer__button {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-left: 12px;
+//     margin-top: 0px;
+//     margin-bottom: 0px;
+//     padding: 0 0;
   
-    width: 200px;
-    height: 50px;
+//     width: 200px;
+//     height: 50px;
   
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.87;
+//     letter-spacing: 0.06em;
   
-    color: $hero-title-color;
-    background-color: $accent-color;
+//     color: $hero-title-color;
+//     background-color: $accent-color;
   
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border-radius: 4px;
   
-    cursor: pointer;
+//     cursor: pointer;
 
-    &--icon {
-      margin-left: 10px;
-    }
-  }
+//     &--icon {
+//       margin-left: 10px;
+//     }
+//   }
   
 
 
-  .form__button--submit {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px 56px;
+//   .form__button--submit {
+//     display: flex;
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding: 10px 56px;
   
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.85;
-    letter-spacing: 0.06em;
-    color: $hero-title-color;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.85;
+//     letter-spacing: 0.06em;
+//     color: $hero-title-color;
   
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border-radius: 4px;
   
-    background-color: $accent-color;
-    border: none;
-    cursor: pointer;
-  } 
+//     background-color: $accent-color;
+//     border: none;
+//     cursor: pointer;
+//   } 
 
-  .portfolio__button-link {
-    color: $title-text-color;
-    cursor: pointer;
-    background-color: $secondary-background-color;
+//   .portfolio__button-link {
+//     color: $title-text-color;
+//     cursor: pointer;
+//     background-color: $secondary-background-color;
   
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+//     font-family: Roboto;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.62;
   
-    border-radius: 4px;
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+//     border-radius: 4px;
+//     padding-left: 22px;
+//     padding-right: 22px;
+//     padding-top: 6px;
+//     padding-bottom: 6px;
   
-    border: none;
+//     border: none;
   
-    transition-property: background-color, color, box-shadow;
-    transition-duration: $transition-duration;
-    transition-timing-function: $timing-function;
+//     transition-property: background-color, color, box-shadow;
+//     transition-duration: $transition-duration;
+//     transition-timing-function: $timing-function;
 
-    &:hover,
-    &:focus {
-        color: $hero-title-color;
-        background-color: $accent-color;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px; 
-    }
+//     &:hover,
+//     &:focus {
+//         color: $hero-title-color;
+//         background-color: $accent-color;
+//         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+//         0px 1px 2px rgba(0, 0, 0, 0.08),
+//         0px 2px 2px rgba(0, 0, 0, 0.12);
+//         border-radius: 4px; 
+//     }
 
-    &.curent {
-        color: $hero-title-color;
-        background-color: $accent-color;
-      }
-    }
+//     &.curent {
+//         color: $hero-title-color;
+//         background-color: $accent-color;
+//       }
+//     }
 
-    .form__button--close {
-        transition-property: fill;
-        transition-duration: $timing-function;
-        animation-timing-function: $timing-function;
+//     .form__button--close {
+//         transition-property: fill;
+//         transition-duration: $timing-function;
+//         animation-timing-function: $timing-function;
       
-        position: absolute;
-        top: 8px;
-        right: 8px;
+//         position: absolute;
+//         top: 8px;
+//         right: 8px;
       
-        cursor: pointer;
+//         cursor: pointer;
       
-        margin: 0px;
-        padding: 0px;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: $hero-title-color;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+//         margin: 0px;
+//         padding: 0px;
+//         width: 30px;
+//         height: 30px;
+//         border-radius: 50%;
+//         background-color: $hero-title-color;
+//         border: 1px solid rgba(0, 0, 0, 0.1);
     
-        &:hover,
-        &:focus {
-            fill: $accent-color;
-        }
-      }
+//         &:hover,
+//         &:focus {
+//             fill: $accent-color;
+//         }
+//       }
 
-      .portfolio__button-list {
-        display: flex;
-        justify-content: center;
+//       .portfolio__button-list {
+//         display: flex;
+//         justify-content: center;
       
-        list-style: none;
-        margin-top: 0px;
-        margin-bottom: 50px;
-        padding-left: 0px;
-        padding-right: 0px;
-      }
+//         list-style: none;
+//         margin-top: 0px;
+//         margin-bottom: 50px;
+//         padding-left: 0px;
+//         padding-right: 0px;
+//       }
       
-      .portfolio__button-item:not(:last-child) {
-        margin-right: 8px;
-      }
+//       .portfolio__button-item:not(:last-child) {
+//         margin-right: 8px;
+//       }

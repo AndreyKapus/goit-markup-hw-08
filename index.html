@@ -75,7 +75,7 @@
 
                             <h2 class="benefits__title">Преимущества компании </h2>
                             <ul class="benefits__list list">
-                                <li class="benefits__item">
+                                <li class="benefits__item benefits__item--card">
                                     <div class="benefits__icon">
                                         <svg width="65.32" height="70">
                                             <use href="./images/symbol-defs.svg#icon-antena"></use>
@@ -85,7 +85,7 @@
                                     <p class="benefits__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                                 </li>
                             
-                                <li class="benefits__item">
+                                <li class="benefits__item benefits__item--card">
                                     <div class="benefits__icon">
                                         <svg width="66.96" height="70">
                                             <use href="./images/symbol-defs.svg#icon-clock"></use>
@@ -95,7 +95,7 @@
                                     <p class="benefits__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                                 </li>
                             
-                                <li class="benefits__item">
+                                <li class="benefits__item benefits__item--card">
                                     <div class="benefits__icon">
                                         <svg width="70" height="70">
                                             <use href="./images/symbol-defs.svg#icon-diagram"></use>
@@ -105,7 +105,7 @@
                                     <p class="benefits__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                                 </li>
                             
-                                <li class="benefits__item">
+                                <li class="benefits__item benefits__item--card">
                                     <div class="benefits__icon">
                                         <svg width="70" height="70">
                                             <use href="./images/symbol-defs.svg#icon-astronaut"></use>
@@ -120,7 +120,7 @@
 
                <!--Секция 3: Чем мы занимаемся-->
 
-                <!-- <section class="feture section">
+                <section class="feture section">
 
                     <div class="container">
                             <h2 class="feature__title">Чем мы занимаемся</h2>
@@ -147,17 +147,22 @@
                                 </ul>
                     </div>
 
-                </section> -->
+                </section>
 
             <!--Секция 3: Наша команда-->
 
-                <!-- <section class="team section">
+                <section class="team section">
 
                      <div class="container">
                         <h2 class="team__title">Наша команда</h2>
                                 <ul class="team__list list">
                                     <li class="team__item">
-                                        <img src="./images/product-designer.jpg" alt="Product Designer" lang="en" width="270" class="team__pct">
+                                        <img 
+                                        srcset="./images/product-designer-mob-1x.jpg 1x, ./images/product-designer-mob-2x.jpg 2x"
+                                        src="./images/product-designer.jpg" 
+                                        alt="UI Designer" lang="en" 
+                                        class="team__pct">
+
                                         <h3 class="team__subtitle">Игорь Демьяненко</h3>
                                         <p class="team__contant" lang="en">Product Designer</p>
                                         <div class="social">
@@ -194,7 +199,11 @@
                                         </div>
                                     </li>
                                     <li class="team__item">
-                                        <img src="./images/frontend-developer.jpg" alt="Frontend Developer" lang="en" width="270" class="team__pct">
+                                        <img 
+                                        srcset="./images/frontend-developer-mob-1x.jpg 1x, ./images/frontend-developer-mob-2x.jpg 2x"
+                                        src="./images/frontend-developer.jpg" 
+                                        alt="UI Designer" lang="en" 
+                                        class="team__pct">
                                         <h3 class="team__subtitle">Ольга Репина</h3>
                                         <p class="team__contant" lang="en">Frontend Developer</p>
                                         <div class="social">
@@ -231,7 +240,12 @@
                                         </div>
                                     </li>
                                     <li class="team__item">
-                                        <img src="./images/marketing.jpg" alt="Marketing" lang="en" width="270" class="team__pct">
+                                        <img 
+                                        srcset="./images/Marketing-mob-1x.jpg 1x, ./images/Marketing-mob-2x.jpg 2x"
+                                        src="./images/marketing.jpg" 
+                                        alt="UI Designer" lang="en" 
+                                        class="team__pct">
+
                                         <h3 class="team__subtitle">Николай Тарасов</h3>
                                         <p class="team__contant" lang="en">Marketing</p>
                                         <div class="social">
@@ -268,7 +282,12 @@
                                         </div>
                                     </li>
                                     <li class="team__item">
-                                        <img src="./images/ui-designer.jpg" alt="UI Designer" lang="en" width="270" class="team__pct">
+                                        <img 
+                                        srcset="./images/ui-designer-mob-1x.jpg 1x, ./images/ui-designer-mob-2x.jpg 2x"
+                                        src="./images/ui-designer.jpg" 
+                                        alt="UI Designer" lang="en" 
+                                        class="team__pct">
+
                                         <h3 class="team__subtitle">Михаил Ермаков</h3>
                                         <p class="team__contant" lang="en">UI Designer</p>
                                         <div class="social">
@@ -307,10 +326,10 @@
                                 </ul>
                         </div>
 
-                </section> -->
+                </section>
 
-                <!-- <section class="clients section">
-                    <div class="container">
+                <section class="clients section">
+                    <div class="container container__clients">
                             <h2 class="clients__title">Постоянные клиенты</h2>
                         
                             <ul class="clients__list">
@@ -359,7 +378,7 @@
                             </ul>
                         </div>
 
-                </section> -->
+                </section>
 
              </main>
                 

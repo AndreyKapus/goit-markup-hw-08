@@ -1,5 +1,65 @@
 
+  .feture {
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+    .feature__list {
+    display: flex;
   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .feature__item {
+    margin-right: 30px;
+
+    &:nth-last-child(-n + 1) {
+        margin-right: 0px;}
+  }
+  
+  .feature__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature__card {
+    position: relative;
+    display: flex;
+  }
+  
+  .feature__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $hero-title-color;
+  }
+      
+    }
+    
+  }
+
+
   // .feature__list {
   //   display: flex;
   

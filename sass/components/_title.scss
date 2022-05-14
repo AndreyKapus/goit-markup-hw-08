@@ -1,3 +1,19 @@
+.hero__title {
+  color: $hero-title-color;
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  max-width: 360px;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
 .feature__title {
     margin-top: 0px;
     margin-bottom: 50px;

@@ -1,3 +1,25 @@
+.hero__button {
+    color: $hero-title-color;
+    background-color: $accent-color;
+    
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border: none;
+  
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    cursor: pointer;
+  }
+
+
+
 // .hero__button {
 //     color: $hero-title-color;
 //     background-color: $accent-color;

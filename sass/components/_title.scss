@@ -1,17 +1,29 @@
 .hero__title {
   color: $hero-title-color;
 
+  max-width: 360px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
-  max-width: 360px;
-  height: auto;
 
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
+
+  @media screen and (min-width: 767px) {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1199px) {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
 }
 
 .feature__title {

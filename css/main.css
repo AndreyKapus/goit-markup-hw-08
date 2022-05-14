@@ -66,17 +66,17 @@
   background-position: center;
   text-align: center;
 }
-
-.hero__title {
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.61;
-  text-align: center;
-  letter-spacing: 0.06em;
-  max-width: 360px;
-  height: auto;
-  text-transform: uppercase;
+@media screen and (min-width: 767px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-background-tablet-1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background-tablet-1x.jpg);
+  }
+}
+@media screen and (min-width: 1199px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-background.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background.jpg);
+  }
 }
 
 .benefits__icon {
@@ -197,16 +197,30 @@
 
 .hero__title {
   color: #ffffff;
+  max-width: 360px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
-  max-width: 360px;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
+}
+@media screen and (min-width: 767px) {
+  .hero__title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .hero__title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
 }
 
 .feature__title {

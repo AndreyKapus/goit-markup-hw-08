@@ -2,7 +2,7 @@
     background-color: $accent-background-color;
     padding-top: 60px;
     padding-bottom: 60px;
-    text-align: center;
+
 
     &__adress {
       color: $hero-title-color;
@@ -12,18 +12,28 @@
     
       margin-top: 0px;
       margin-bottom: 9px;
+  }
 
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
+    text-align: center;
   }
 }
 
 .footer__flex-container {
   
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
 
     font-weight: 700;
   }
-  
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+  }
 }

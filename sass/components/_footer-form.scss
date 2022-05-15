@@ -7,7 +7,7 @@
   
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
@@ -23,19 +23,41 @@
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
      border-radius: 4px;
      color: $hero-title-color;
+     padding-left: 16px;
 
      &::placeholder {
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.03em;
-        padding-left: 16px;
      }
+
+     @media screen and (min-width: 767px) {
+       max-width: 450px;
+     }
+     
+     @media screen and (min-width: 1200px) {
+      width: 358px;
+    }
     }
 
     .footer__sign {
         margin-bottom: 20px;
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+          text-align: center;
+        }
+
+        @media screen and (min-width: 1200px) {
+          padding-right: 20px;
+          margin-bottom: 0px;
+        }
     }
 
+    .footer__form {
+      @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: flex-end;
+      }
+  }
 
 
 

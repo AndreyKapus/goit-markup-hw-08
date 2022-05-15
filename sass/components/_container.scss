@@ -24,7 +24,10 @@
 //   justify-content: space-between;
 //  }
 
-//  .footer__container {
-//    display: flex;
-//    align-items: baseline;
-//  }
+ .footer__container {
+   @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   }
+ }

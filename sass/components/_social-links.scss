@@ -96,64 +96,95 @@
 
 //   /////////////////////
 
-//   .footer__social {
-//     justify-content: center;
-//     margin-right: auto;
-//   }
+  // .footer__social {
+  //   justify-content: center;
+  // }
+
   
-//   .footer__social--title {
-//     color: $hero-title-color;
+
+
+
+
+
+
+  //////////////////////////////////////////////////////////////
   
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 16px;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
+  // .footer__social--title {
+  //   color: $hero-title-color;
   
-//     margin-top: 0px;
-//     margin-bottom: 20px;
-//   }
+  //   font-weight: 700;
+  //   font-size: 14px;
+  //   line-height: 1.14px;
+  //   letter-spacing: 0.03em;
+  //   text-transform: uppercase;
   
-//   .footer__social--list {
-//     display: flex;
+  //   margin-top: 0px;
+  //   margin-bottom: 20px;
+  // }
+
+  .footer__social--title {
+    color: $hero-title-color;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .footer__social--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     
-//     margin-top: 0px;
-//     margin-bottom: 0px;
-//     padding-left: 0px;
-//   }
-  
-//   .footer__social--link {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-  
-//     transition-property: background-color;
-//     transition-duration: $transition-duration;
-//     transition-timing-function: $timing-function;
-  
-//     width: 44px;
-//     height: 44px;
-//     border-radius: 50%;
-  
-//     cursor: pointer;
-  
-//     background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-left: 0px;
 
-//     &:hover,
-//     &:focus {
-//         background-color: $accent-color;
-//     }
-//   }
+    @media screen and (min-width: 767px) {
+      margin-bottom: 0px;
 
-//   .footer__social--item {
-//     justify-content: center;
-//     margin-right: auto;
-
-//     &:not(:last-child) {
-//       margin-right: 10px;
-//     }
-//   }
+    }
+  }
   
-//   .footer__social--icon {
-//     fill: $hero-title-color;
-//   }
+  .footer__social--link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition-property: background-color;
+    transition-duration: $transition-duration;
+    transition-timing-function: $timing-function;
+  
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+  
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+  }
+
+  .footer__social--item {
+    justify-content: center;
+
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+  
+  .footer__social--icon {
+    fill: $hero-title-color;
+  }

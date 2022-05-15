@@ -1,18 +1,29 @@
-// .footer {
-//     background-color: $accent-background-color;
-//     padding-top: 60px;
-//     padding-bottom: 60px;
+.footer {
+    background-color: $accent-background-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
 
-//     &__adress {
-//       color: $hero-title-color;
+    &__adress {
+      color: $hero-title-color;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
     
-//       font-style: normal;
-//       font-weight: 400;
-    
-//       font-size: 14px;
-//       line-height: 1.7;
-    
-//       margin-top: 0px;
-//       margin-bottom: 9px;
-//   }
-// }
+      margin-top: 0px;
+      margin-bottom: 9px;
+
+  }
+}
+
+.footer__flex-container {
+  
+  @media screen and (min-width: 767px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    font-weight: 700;
+  }
+  
+}

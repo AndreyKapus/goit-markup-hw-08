@@ -9,11 +9,14 @@
     padding-left: 0px;
   
     list-style: none;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
 
   .site-nav__link {
 
-    position: relative;
     transition-property: color;
     transition-duration: $transition-duration;
     transition-timing-function: $timing-function;
@@ -51,6 +54,11 @@
       position: absolute;
       left: 0px;
       bottom: -2px;
+
+      @media screen and (min-width: 767px) {
+        display: none;
+      }
+      
     }
   }
 
@@ -61,4 +69,11 @@
 .header__main-nav {
   display: flex;
   align-items: center;
+}
+
+
+.header-contacts {
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }

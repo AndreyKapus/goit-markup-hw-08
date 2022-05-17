@@ -115,6 +115,10 @@ margin-left: 10px;
     &:focus {
         fill: $accent-color;
     }
+
+    @media screen and (min-width: 767px) {
+    display: none;
+    }
   }
 
 

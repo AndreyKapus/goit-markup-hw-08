@@ -73,6 +73,15 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: baseline;
+    }
   }
   
   .mail__link,
@@ -105,10 +114,21 @@
     &__icon:hover {
         fill: currentColor;
     }
+
+    @media screen and (min-width: 768px) {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
   }
-  
-  .mail {
-    margin-right: 30px;
+
+  .mail__link {
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 30px;
+    }
   }
   
   .mail__icon {
@@ -121,13 +141,10 @@
      fill: currentColor;
    }
   
-  .header {
-    border: 1px solid $header-border-color;
-  }
+  // .header {
+  //   border: 1px solid $header-border-color;
+  // }
   
-  .contacts {
-    margin-left: auto;
-  }
 
 //   .footer__list {
 //     margin-top: 0px;

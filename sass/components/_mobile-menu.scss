@@ -6,6 +6,11 @@
     height: 100%;
     padding-top: 48px;
     padding-bottom: 48px;
+    z-index: 2;
+
+    @media screen and (min-width: 768px) {
+    display: none;
+    }
 
     .mob__menu-container {
     display: flex;

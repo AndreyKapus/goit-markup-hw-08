@@ -5,7 +5,7 @@
   
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: $title-text-color;
@@ -46,6 +46,14 @@
     line-height: 1.16;
     letter-spacing: 0.01em;
     margin-bottom: 4px;
+
+    transition-property: color;
+    transition-duration: $transition-duration;
+    animation-timing-function: $timing-function;
+
+    .form__input:focus + & {
+      color: $accent-color 
+    }
   }
   
   .form__icon {
@@ -61,5 +69,3 @@
       fill: $accent-color;
     }
   }
-  
-

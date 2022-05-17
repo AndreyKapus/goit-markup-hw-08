@@ -6,6 +6,12 @@
   height: 100%;
   padding-top: 48px;
   padding-bottom: 48px;
+  z-index: 2;
+}
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
 }
 .mob-menu .mob__menu-container {
   display: -webkit-box;
@@ -256,8 +262,10 @@
   }
 }
 
-.benefits {
-  padding-bottom: 0px;
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-bottom: 0px;
+  }
 }
 
 .container {
@@ -1028,13 +1036,15 @@
     margin: 15px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .product-list__item {
     width: calc(33.3333333333% - 30px);
   }
 }
 
 .product-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 0px;
 }
 @media screen and (min-width: 768px) {
@@ -1137,10 +1147,12 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
+  padding-top: 49px;
+  padding-left: 24px;
+  padding-right: 24px;
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 63px 24px;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
@@ -1193,13 +1205,18 @@
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+  }
+}
 
 .form__title {
   margin-top: 0px;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -1244,6 +1261,15 @@
   line-height: 1.16;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__input:focus + .form__label {
+  color: #2196f3;
 }
 
 .form__icon {
@@ -1330,6 +1356,13 @@ textarea {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .policy {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .policy__label {
   display: -webkit-box;
@@ -1341,6 +1374,12 @@ textarea {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .policy__label {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .policy__icon {

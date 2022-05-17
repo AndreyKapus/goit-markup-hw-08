@@ -4,6 +4,10 @@
   
     margin-top: 0px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+      justify-content: center;
+    }
   }
   
   .policy__label {
@@ -14,6 +18,11 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
   
   .policy__icon {

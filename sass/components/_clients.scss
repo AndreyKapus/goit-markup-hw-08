@@ -29,35 +29,6 @@
     
   }
   
-
-//         @media screen and (min-width: 480px) {
-//             margin-bottom: 30px;
-//         width: 210px;
-//      }
-//         width: calc(100% / 2 - 30px);
-
-//         @media screen and (max-width: 767px) {
-
-//         &:nth-child(2n + 1) {
-//         margin-right: 30px;
-//      }
-
-//         &:nth-last-child(-n + 2) {
-//         margin-bottom: 0px;
-//      }
-//     }
-
-//     @media screen and (min-width: 768px) {
-//         width: 226px;
-//         width: calc(100% / 3 - 30px);'
-//         margin-right: 30px;
-//         @media screen and (max-width: 1199px) {
-        
-
-//         }
-//     }
-//   }
-  
     .client__link {
     transition-property: border, color;
     transition-duration: $transition-duration;
@@ -107,78 +78,6 @@
       }
     }
     
-
-     
-    
-    
     .clients-icon {
       fill: currentColor;
     }
-
-
-
-
-
-
-// .clients__title {
-//     margin-top: 0px;
-//     margin-bottom: 50px;
-  
-//     font-weight: 700;
-//     font-size: 36px;
-//     line-height: 1.16;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-  
-//     color: $title-text-color;
-//   }
-  
-//   .clients__list {
-//     display: flex;
-//     justify-content: center;
-//     list-style: none;
-  
-//     margin-top: 0px;
-//     margin-bottom: 0px;
-//     padding-left: 0px;
-//   }
-  
-//   .clients__item {
-//     margin-right: 30px;
-//     margin-top: 0px;
-//     margin-bottom: 0px;
-
-//     &:last-child {
-//         margin-right: 0px;
-//       }
-//   }
-  
-
-//   .client__link {
-//     transition-property: border, color;
-//     transition-duration: $transition-duration;
-//     transition-timing-function: $timing-function;
-    
-//     display: flex;
-//     justify-content: center;
-    
-//     width: 170px;
-//     height: 92px;
-//     left: 215px;
-//     top: 2493px;
-    
-//     color: $svg-color;
-//     border: 1px solid $svg-color;
-//     border-radius: 4px;
-
-//     &:hover,
-//     &:focus {
-//         border-color: $accent-color;
-//         color: $accent-color;
-//     }
-//     }
-  
-//     .clients-icon {
-//       fill: currentColor;
-//     }
- 

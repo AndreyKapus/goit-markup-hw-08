@@ -40,8 +40,10 @@
   }
 
   .site-nav__link.curent {
+    position: relative;
     color: $accent-color;
 
+    @media screen and (min-width: 768px) {
     &::after {
 
       content: '';
@@ -53,12 +55,8 @@
     
       position: absolute;
       left: 0px;
-      bottom: -2px;
-
-      @media screen and (min-width: 767px) {
-        display: none;
-      }
-      
+      bottom: -1px;
+      } 
     }
   }
 

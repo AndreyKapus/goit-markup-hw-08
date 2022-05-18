@@ -166,20 +166,36 @@
                                 <ul class="feature__list list">
                                     <li class="feature__item">
                                         <div class="feature__card">
-                                            <img src="./images/img1.jpg" class="feature__img" alt="картинка" width="370">
-                                        
+                                            <img 
+                                            srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                                            src="./images/product-designer.jpg" 
+                                            alt="picture" lang="en" 
+                                            class="team__pct"
+                                            width="370">
+                                      
                                             <p class="feature__text">Десктопные приложения</p>
                                         </div>
                                     </li>
                                     <li class="feature__item">
                                         <div class="feature__card">
-                                            <img src="./images/img2.jpg" class="feature__img" alt="картинка" width="370">
+                                            <img 
+                                            srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                                            src="./images/img2.jpg" 
+                                            alt="picture" lang="en" 
+                                            class="team__pct"
+                                            width="370">
+
                                             <p class="feature__text">Мобильные приложения</p>
                                         </div>
                                     </li>
                                     <li class="feature__item">
                                         <div class="feature__card">
-                                            <img src="./images/img3.jpg" class="feature__img" alt="картинка" width="370">
+                                            <img 
+                                            srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                                            src="./images/img3.jpg" 
+                                            alt="picture" lang="en" 
+                                            class="team__pct"
+                                            width="370">
                                             <p class="feature__text">Дизайнерские решения</p>
                                         </div>
                                     </li>
@@ -196,11 +212,24 @@
                         <h2 class="team__title">Наша команда</h2>
                                 <ul class="team__list list">
                                     <li class="team__item">
-                                        <img 
-                                        srcset="./images/product-designer-mob-1x.jpg 1x, ./images/product-designer-mob-2x.jpg 2x"
-                                        src="./images/product-designer.jpg" 
-                                        alt="product-designer" lang="en" 
-                                        class="team__pct">
+                                        <picture>
+                                            <source 
+                                            srcset="./images/product-designer-desk-1x.jpg 1x, ./images/product-designer-desk-2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+
+                                            <source 
+                                            srcset="./images/product-designer-tab-1x.jpg 1x, ./images/product-designer-tab-2x.jpg 2x"
+                                            media="(min-width: 768px)">
+
+                                            <source 
+                                            srcset="./images/product-designer-mob-1x.jpg 1x, ./images/product-designer-mob-2x.jpg 2x"
+                                            media="(min-width: 320px)">
+
+                                            <img 
+                                            src="./images/product-designer.jpg" 
+                                            alt="product-designer" lang="en" 
+                                            class="team__pct">
+                                        </picture>
 
                                         <h3 class="team__subtitle">Игорь Демьяненко</h3>
                                         <p class="team__contant" lang="en">Product Designer</p>
@@ -238,11 +267,25 @@
                                         </div>
                                     </li>
                                     <li class="team__item">
-                                        <img 
-                                        srcset="./images/frontend-developer-mob-1x.jpg 1x, ./images/frontend-developer-mob-2x.jpg 2x"
-                                        src="./images/frontend-developer.jpg" 
-                                        alt="frontend-developer" lang="en" 
-                                        class="team__pct">
+                                        <picture>
+                                            <source 
+                                            srcset="./images/frontend-developer-desk-1x.jpg 1x, ./images/frontend-developer-desk-2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+
+                                            <source 
+                                            srcset="./images/frontend-developer-tab-1x.jpg 1x, ./images/frontend-developer-tab-2x.jpg 2x"
+                                            media="(min-width: 768px)">
+
+                                            <source 
+                                            srcset="./images/frontend-developer-mob-1x.jpg 1x, ./images/frontend-developer-mob-2x.jpg 2x"
+                                            media="(min-width: 320px)">
+
+                                            <img 
+                                            src="./images/frontend-developer.jpg" 
+                                            alt="frontend-developer" lang="en" 
+                                            class="team__pct">
+                                        </picture>
+
                                         <h3 class="team__subtitle">Ольга Репина</h3>
                                         <p class="team__contant" lang="en">Frontend Developer</p>
                                         <div class="social">
@@ -279,11 +322,24 @@
                                         </div>
                                     </li>
                                     <li class="team__item">
-                                        <img 
-                                        srcset="./images/marketing-mob-1x.jpg 1x, ./images/marketing-mob-2x.jpg 2x"
-                                        src="./images/marketing.jpg" 
-                                        alt="Marketing" lang="en" 
-                                        class="team__pct">
+                                        <picture>
+                                            <source 
+                                            srcset="./images/marketing-desk-1x.jpg 1x, ./images/marketing-desk-2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+
+                                            <source 
+                                            srcset="./images/marketing-tab-1x.jpg 1x, ./images/marketing-tab-2x.jpg 2x"
+                                            media="(min-width: 768px)">
+
+                                            <source 
+                                            srcset="./images/marketing-mob-1x.jpg 1x, ./images/marketing-mob-2x.jpg 2x"
+                                            media="(min-width: 320px)">
+
+                                            <img 
+                                            src="./images/marketing.jpg" 
+                                            alt="marketing" lang="en" 
+                                            class="team__pct">
+                                        </picture>
 
                                         <h3 class="team__subtitle">Николай Тарасов</h3>
                                         <p class="team__contant" lang="en">Marketing</p>
@@ -321,11 +377,24 @@
                                         </div>
                                     </li>
                                     <li class="team__item">
-                                        <img 
-                                        srcset="./images/ui-designer-mob-1x.jpg 1x, ./images/ui-designer-mob-2x.jpg 2x"
-                                        src="./images/ui-designer.jpg" 
-                                        alt="UI Designer" lang="en" 
-                                        class="team__pct">
+                                        <picture>
+                                            <source 
+                                            srcset="./images/ui-designer-1x.jpg 1x, ./images/ui-designer-desk-2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+
+                                            <source 
+                                            srcset="./images/ui-designer-tab-1x.jpg 1x, ./images/ui-designer-tab-2x.jpg 2x"
+                                            media="(min-width: 768px)">
+
+                                            <source 
+                                            srcset="./images/ui-designer-mob-1x.jpg 1x, ./images/ui-designer-mob-2x.jpg 2x"
+                                            media="(min-width: 320px)">
+
+                                            <img 
+                                            src="./images/ui-designer.jpg" 
+                                            alt="ui-designer" lang="en" 
+                                            class="team__pct">
+                                        </picture>
 
                                         <h3 class="team__subtitle">Михаил Ермаков</h3>
                                         <p class="team__contant" lang="en">UI Designer</p>

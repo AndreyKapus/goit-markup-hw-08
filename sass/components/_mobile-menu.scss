@@ -39,6 +39,7 @@
 .mob__menu--list {
     display: block;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .mob-nav__item {
@@ -91,6 +92,7 @@ margin-bottom: 32px;
 
 .mob__soc--list {
 display: flex;
+flex-wrap: wrap;
 margin-top: 0px;
 margin-bottom: 0px;
 }

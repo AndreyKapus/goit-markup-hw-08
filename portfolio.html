@@ -21,15 +21,15 @@
                     <a href="./index.html" class="header__logo"> <span class="header__logo-item">Web</span>Studio</a>
 
                     <ul class="header__site-nav">
-                        <li class="site-nav__item"> <a href="./index.html" class="site-nav__link">Студия</a></li>
-                        <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link curent">Портфолио</a></li>
+                        <li class="site-nav__item"> <a href="./index.html" class="site-nav__link curent">Студия</a></li>
+                        <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
                         <li class="site-nav__item"> <a href="" class="site-nav__link">Контакты</a></li>
                     </ul>
             </nav> 
 
-            <div class="contacts">
+           
                 <ul class="header-contacts">
-                    <li class="list">
+                    <li class="list header-contacts__item">
                         <div class="mail">
                             <a href="mailto:info@devstudio.com" class="mail__link">
                                 <svg class="mail__icon" width="16" height="16">
@@ -39,7 +39,7 @@
                         </div>
                     </li>
 
-                    <li class="list">
+                    <li class="list header-contacts__item">
                         <div class="tel">
                             <a href="tel:+380961111111" class="tel__link">
                                 <svg class="tel__icon" width="16" height="16">
@@ -50,18 +50,17 @@
                         </div>
                     </li>
                 </ul>
+                <button type="button" class="mobile__menu--btn">
+                    <svg class="mobile__menu--icon" width="40" height="40">
+                        <use href="./images/symbol-defs.svg#icon-mob-menu"></use>
+                    </svg>
+                </button>
             </div>
-            <button type="button" class="mobile__menu--btn">
-                <svg class="mobile__menu--icon" width="40" height="40">
-                    <use href="./images/symbol-defs.svg#icon-mob-menu"></use>
-                </svg>
-            </button>
 
-        </div>
 
-        <div class="mob-menu is-hidden" mob-menu>
-            <button type="button" class="mobile__menu--close" width="40" height="40">
-                <svg class="mobile__menu--icon" width="40" height="40">
+        <div class="mob-menu is-hidden">
+            <button type="button" class="mobile__menu--close">
+                <svg class="mobile__menu--icon" width="40px" height="40px">
                     <use href="./images/symbol-defs.svg#icon-close-menu"></use>
                 </svg>
             </button>
@@ -79,14 +78,13 @@
                         <li class="mob__contacts--mail"><a href="mailto:info@devstudio.com" class="mob__mail-link">info@devstudio.com</a></li>
                     </ul>     
 
-                    <link>
+                    
                         <ul class="mob__soc--list list">
                             <li class="mob__soc--item"> <a class="mob__soc--link" href="">Instagram</a></li>
                             <li class="mob__soc--item"> <a class="mob__soc--link" href="">twitter</a></li>
                             <li class="mob__soc--item"> <a class="mob__soc--link" href="">Facebook</a></li>
                             <li class="mob__soc--item"> <a class="mob__soc--link" href="">Linkedin</a></li>
                         </ul>
-                    </link>
                 </div>
             </div> 
         </div>
@@ -498,8 +496,7 @@
                        
                               
                     
-                        <form>
-                            <div class="footer__form">
+                        <form class="footer__form">
                                 <div class="footer__sign">
                                     <strong class="footer__label">подпишитесь на рассылку</strong>
                                     <input type="email" name="email" id="sign-form" class="footer__input" placeholder="E-mail">
@@ -509,7 +506,6 @@
                                         <use href="./images/symbol-defs.svg#icon-send"></use>
                                     </svg>
                                 </button>
-                            </div>
                         </form>
             </div>  
             

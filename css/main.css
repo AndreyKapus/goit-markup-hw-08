@@ -1586,6 +1586,13 @@ textarea {
     padding-bottom: 0px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .mail__link,
+.tel__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .mail__link {

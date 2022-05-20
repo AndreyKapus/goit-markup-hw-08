@@ -9,6 +9,11 @@
     letter-spacing: 0.03em;
   
     color: $title-text-color;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 36px;
+      line-height: 1.16;
+    }
   }
 
   .clients__list {

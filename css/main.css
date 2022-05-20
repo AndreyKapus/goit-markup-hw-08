@@ -153,7 +153,6 @@
   background-color: transparent;
   border: none;
   display: block;
-  margin-left: auto;
 }
 .mobile__menu--btn:hover, .mobile__menu--btn:focus {
   fill: #2196f3;
@@ -265,8 +264,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .benefits {
-    padding-bottom: 0px;
+  .feture {
+    padding-top: 0px;
   }
 }
 
@@ -327,6 +326,7 @@
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  max-width: 1600px;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -353,6 +353,7 @@
     padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-background.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background.jpg);
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
@@ -412,9 +413,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-left: auto;
     margin-right: auto;
     -ms-flex-wrap: wrap;
@@ -455,7 +453,7 @@
 }
 @media screen and (min-width: 1200px) {
   .benefits__item {
-    width: calc(25% - 30px);
+    width: calc((100% - 90px) / 4);
     margin-bottom: 0px;
   }
   .benefits__item:not(:last-child) {
@@ -605,12 +603,20 @@
 
 .team__title {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
   color: #212121;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .team__title {
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 
 .team__list {
@@ -699,6 +705,12 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .clients__title {
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 
 .clients__list {
@@ -1035,7 +1047,7 @@
 }
 @media screen and (min-width: 1200px) {
   .footer__sign {
-    padding-right: 20px;
+    margin-right: 12px;
     margin-bottom: 0px;
   }
 }
@@ -1052,6 +1064,9 @@
 }
 
 .product-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1098,6 +1113,9 @@
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .product-list__title {
@@ -1121,7 +1139,13 @@
 .product-list__link {
   list-style: none;
   text-decoration: none;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
   transition-property: box-shadow;
@@ -1146,6 +1170,7 @@
 
 .product-list__overlay {
   position: absolute;
+  overflow-y: scroll;
   width: 100%;
   height: 100%;
   bottom: 0;
@@ -1446,6 +1471,9 @@ textarea {
 
 .header {
   border: 1px solid #ECECEC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer__list {
@@ -1561,11 +1589,23 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .mail__link {
+    padding-top: 21px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .tel__link {
+    padding-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-contacts__item:not(:last-child) {
     margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .mail__link {
+  .header-contacts__item:not(:last-child) {
     margin-right: 30px;
   }
 }
@@ -1643,6 +1683,7 @@ textarea {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
   cursor: pointer;
 }
 .footer__button--icon {

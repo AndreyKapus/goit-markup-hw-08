@@ -1,6 +1,8 @@
   .product-list__item {
+    display: flex;
     margin-bottom: 30px;
     box-sizing: border-box;
+    
 
     @media screen and (min-width: 768px) {
         width: calc(100% / 2 - 30px);
@@ -39,6 +41,7 @@
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
+    flex-grow: 1;
     }
   
   .product-list__title {
@@ -51,6 +54,7 @@
   
     margin-top: 0px;
     margin-bottom: 4px;
+    
   }
   
   .product-list__text {
@@ -66,7 +70,8 @@
   .product-list__link {
     list-style: none;
     text-decoration: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
   
     transition-property: box-shadow;
     transition-duration: $transition-duration;
@@ -89,6 +94,7 @@
   
   .product-list__overlay {
     position: absolute;
+    overflow-y: scroll;
     
     width: 100%;
     height: 100%;

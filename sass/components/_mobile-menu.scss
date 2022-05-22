@@ -6,6 +6,8 @@
     height: 100%;
     padding-top: 48px;
     padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
     z-index: 2;
 
     @media screen and (min-width: 768px) {
@@ -40,6 +42,7 @@
     display: block;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .mob-nav__item {
@@ -84,6 +87,7 @@ color: $primary-text-color;
 .mob__contacts--list {
     margin-top: 0px;
     margin-bottom: 64px;
+    padding-left: 0px;
 }
 
 .mob__contacts--tel {
@@ -113,13 +117,14 @@ margin-left: 10px;
  }
 }
 
+  .mob-nav__link.curent {
+        color: $accent-color;
+    }
+
 .mobile__menu--btn {
     background-color: transparent;
     border: none;
     display: block;
-
-
-
 
     &:hover,
     &:focus {
@@ -130,5 +135,4 @@ margin-left: 10px;
     display: none;
     }
   }
-
 
